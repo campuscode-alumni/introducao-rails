@@ -1,0 +1,28 @@
+<h1>Vagas da Revelo</h1>
+
+<h2>Vagas em SP</h2>
+
+<% @vagas.each do |v| %>
+  <div>
+    <h3><%= v.titulo %></h3>
+  </div>
+<% end %>
+
+
+
+
+
+
+
+
+<% dia = 'quinta' %>
+
+<% if dia == 'sexta' %>
+  <p>Sextou! Party hard!!!</p>
+<% else %>
+  <p> Ainda não </p>
+  Hoje ainda é <%= Date.today %>
+<% end %>
+
+
+
