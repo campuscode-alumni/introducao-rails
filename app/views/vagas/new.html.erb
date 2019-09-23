@@ -1,0 +1,9 @@
+<%= form_with model: @vaga, local: true do |f| %>
+  <%= f.label :titulo %>
+  <%= f.text_field :titulo %>
+  <%= f.label :descricao %>
+  <%= f.text_area :descricao %>
+  <%= f.label :ativa %>
+  <%= f.check_box :ativa %>
+  <%= f.submit 'Criar Vaga' %>
+<% end %>
