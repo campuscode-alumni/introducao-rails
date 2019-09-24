@@ -2,9 +2,10 @@
 
 <h2>Vagas em SP</h2>
 
-<% @vagas.each do |v| %>
+<% @vagas.each do |vaga| %>
   <div>
-    <h3><%= v.titulo %></h3>
+    <h3><%= vaga.titulo %></h3>
+    <%= link_to 'Ver detalhes', vaga %>
   </div>
 <% end %>
 

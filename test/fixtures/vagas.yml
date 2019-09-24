@@ -3,9 +3,7 @@
 one:
   titulo: MyString
   descricao: MyString
-  ativa: false
 
 two:
   titulo: MyString
   descricao: MyString
-  ativa: false
